@@ -1,0 +1,15 @@
+{
+	"name": "SourceDataset_a88",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedservicedfcpy1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "container-eversrc1/test"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntime3",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/4584f83a-7b71-4479-a8de-95de5a20c010/resourcegroups/mssqltoazuredatalake/providers/Microsoft.DataFactory/factories/mssqltoazuredatalake/integrationruntimes/integrationRuntime3",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

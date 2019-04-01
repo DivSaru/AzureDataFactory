@@ -1,0 +1,15 @@
+{
+	"name": "DestinationDataset_a88",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedServiceadfg2",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlobFSFile",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "eversrcfilesystem1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

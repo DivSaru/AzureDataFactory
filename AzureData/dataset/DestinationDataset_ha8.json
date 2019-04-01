@@ -1,0 +1,15 @@
+{
+	"name": "DestinationDataset_ha8",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "destinationdatalakeg2",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlobFSFile",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "eversrcfilesystem1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

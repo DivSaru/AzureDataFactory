@@ -1,0 +1,15 @@
+{
+	"name": "eventtrigcontainer",
+	"properties": {
+		"runtimeState": "Stopped",
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eversrcfilesystem1/",
+			"scope": "/subscriptions/0ea9454c-2597-4931-b6a9-1342206de685/resourceGroups/eversource_poc/providers/Microsoft.Storage/storageAccounts/generalv2eversrc1",
+			"events": [
+				"Microsoft.Storage.BlobCreated",
+				"Microsoft.Storage.BlobDeleted"
+			]
+		}
+	}
+}

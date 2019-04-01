@@ -1,0 +1,16 @@
+{
+	"name": "jaganFileserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\",
+			"userId": "BLR19PF1E828X\\Jagan",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlZjYwOGJhMy1lZTdkLTQ2ODItODRjMS0zNTA3ODM2MTNlZmQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime3",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
