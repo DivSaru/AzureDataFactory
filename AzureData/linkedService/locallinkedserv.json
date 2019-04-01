@@ -1,0 +1,16 @@
+{
+	"name": "locallinkedserv",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\",
+			"userId": "MRESULTLT064\\Divya",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1N2UyODY4ZC0xY2Y0LTQ5NWItYTQ5Yy00NzA5MjMzMjE0MDYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

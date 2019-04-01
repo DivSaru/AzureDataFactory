@@ -1,0 +1,15 @@
+{
+	"name": "SourceDataset_ha8",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "jaganFileserver",
+			"type": "LinkedServiceReference"
+		},
+		"type": "FileShare",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "Users/Jagan/Desktop/Hack"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,14 @@
+{
+	"name": "FileShare1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "locallinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"type": "FileShare",
+		"typeProperties": {
+			"folderPath": "Divya/EversourcePOD2/test"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "trigadf2lastmodified",
+	"properties": {
+		"description": "Trigger for copy files from source to destination on the basis of last modified date",
+		"runtimeState": "Stopped",
+		"type": "TumblingWindowTrigger",
+		"typeProperties": {
+			"frequency": "Hour",
+			"interval": 1,
+			"startTime": "2019-03-27T09:32:00Z",
+			"endTime": "2019-03-28T01:00:00Z",
+			"delay": "00:00:00",
+			"maxConcurrency": 2,
+			"retryPolicy": {
+				"intervalInSeconds": 30
+			}
+		}
+	}
+}
