@@ -6,7 +6,7 @@
 		"typeProperties": {
 			"host": "C:\\",
 			"userId": "MRESULTLT064\\Divya",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0M2FlMWFkYi0xMGRhLTQ2NmMtODg3Yi1jNTYzODdmNzcyNmIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkNzRlOTQ3Yy1iYTVjLTQ4NjUtOTI3OS0zNGIzMjU0NDk3NzMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
